@@ -178,6 +178,7 @@ header nav {
   }
 }
 .exit-menu {
+  background-color: transparent;
    animation: slide-top 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
 }
 @keyframes slide-top {
@@ -190,10 +191,13 @@ header nav {
             transform: translateY(-100px);
   }
 }
-.scroll-menu-a {
+.ingress-menu-a {
   color: #000;
   z-index: 100;
   transition: 1.2s;
+}
+.ingress-menu-a:hover {
+  color: #cdcdcd;
 }
 header nav ul {
   display: flex;
@@ -208,6 +212,10 @@ header nav ul li a {
   color: rgba(255, 255, 255, 0.7);
   line-height: 1.2;
   text-decoration: none;
+  transition: 300ms;
+}
+header nav ul li a:hover {
+  color: #fff;
 }
 header nav ul li .calendary {
   font-size: 20px;

@@ -27,18 +27,18 @@ window.onscroll = function () {
 
   if (scroll > 180) {
     menu.classList.add('ingress-menu');
-    calendaryMenu.classList.add('scroll-menu-a');
-    homeMenu.classList.add('scroll-menu-a');
-    aboutMenu.classList.add('scroll-menu-a');
-    servicesMenu.classList.add('scroll-menu-a');
-    contactsMenu.classList.add('scroll-menu-a');
-  } else if (scroll < 180) {
+    calendaryMenu.classList.add('ingress-menu-a');
+    homeMenu.classList.add('ingress-menu-a');
+    aboutMenu.classList.add('ingress-menu-a');
+    servicesMenu.classList.add('ingress-menu-a');
+    contactsMenu.classList.add('ingress-menu-a');
+  } else if (scroll < 179) {
     menu.classList.remove('ingress-menu');
-    calendaryMenu.classList.remove('scroll-menu-a');
-    homeMenu.classList.remove('scroll-menu-a');
-    aboutMenu.classList.remove('scroll-menu-a');
-    servicesMenu.classList.remove('scroll-menu-a');
-    contactsMenu.classList.remove('scroll-menu-a');
+    calendaryMenu.classList.remove('ingress-menu-a');
+    homeMenu.classList.remove('ingress-menu-a');
+    aboutMenu.classList.remove('ingress-menu-a');
+    servicesMenu.classList.remove('ingress-menu-a');
+    contactsMenu.classList.remove('ingress-menu-a');
   }
 }
 
