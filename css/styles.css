@@ -10,6 +10,83 @@ body {
   font-family: 'Cabin', sans-serif;
   overflow-x: hidden;
 }
+/*card.calendary*/
+.card-calendary {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 1000;
+  /* display: none; */
+}
+.card-calendary .container-calendary {
+  position: relative;
+  width: 600px;
+  height: 400px;
+  background-color: #fff;
+  border-radius: 20px;
+  display: flex;
+  box-shadow: 0 5px 15px rgb(0 0 0 / 10%);
+}
+.card-calendary .container-calendary .icon {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  width: 30px;
+  height: 30px;
+  background-color: #f3f3f3;
+  cursor: pointer;
+  border-radius: 50%;
+}
+.card-calendary .container-calendary .icon .fa-xmark {
+  position: absolute;
+  top: 6px;
+  right: 9px;
+  font-size: 17px;
+  color: #333;
+}
+.card-calendary .container-calendary figure,
+.card-calendary .container-calendary .content-text-calendary {
+  position: relative;
+  width: 50%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.card-calendary .container-calendary figure::before {
+  content: "";
+  position: absolute;
+  width: 250px;
+  height: 250px;
+  background: #e7ffe0;
+  border-radius: 100%;
+}
+.card-calendary .container-calendary figure img {
+  width: 250px;
+  z-index: 10;
+}
+.card-calendary .container-calendary .content-text-calendary {
+  padding: 5px;
+  flex-direction: column;
+  align-items: start;
+}
+.card-calendary .container-calendary .content-text-calendary h3 {
+  font-size: 4.7rem;
+  font-weight: 300;
+  line-height: 1em;
+  color: #333;
+}
+.card-calendary .container-calendary .content-text-calendary a {
+  padding: 10px 20px;
+  margin-top: 15px;
+  background-color: #ff4d54;
+  color: #fff;
+  font-size: 2.3rem;
+  text-decoration: none;
+  border-radius: 10px;
+}
+/*generals*/
 .transparents {
   width: 100%;
   height: 102vh;
