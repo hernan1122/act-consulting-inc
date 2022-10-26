@@ -9,39 +9,41 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@200;400&family=Boogaloo&family=Cabin:wght@400;500;600;700&family=Concert+One&family=Cuprum:wght@400;600;700&family=DM+Sans:wght@400;500;700&family=Encode+Sans+Condensed:wght@200;400;500;700;900&family=Indie+Flower&family=Inter:wght@300;500&family=Kaushan+Script&family=Oswald:wght@200;300;400;600;700&family=PT+Sans+Narrow:wght@400;700&family=Press+Start+2P&family=Roboto+Mono:wght@100&family=Roboto:wght@100;300;400;500;700;900&family=Silkscreen&family=Ubuntu+Condensed&family=Ubuntu:wght@300;400;500;700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
   <link rel="stylesheet" href="./css/styles.css">
 </head>
 <body>
-  <section class="card-calendary">
+  <section id="card-calendary" class="card-calendary">
     <div class="container-calendary">
-      <div class="icon"><i class="fa-solid fa-xmark"></i></div>
+      <div id="btn-card" class="icon"><i class="fa-solid fa-xmark"></i></div>
       <figure>
         <img src="./images/calendar.png" alt="">
       </figure>
       <div class="content-text-calendary">
-        <h3>Calendary Tax Payment 2022</h3>
+        <h3>Calendar Tax Payment 2022</h3>
         <a href="">Go to</a>
       </div>
     </div>
   </section>
   <header>
     <div class="transparents">
-      <nav>
+      <div id="menu"></div>
+      <nav class="scroll-nav">
         <ul>
           <li>
-            <a class="calendary" href=""><i class="fa-solid fa-calendar-days"></i></a>
+            <a id="calendary" class="calendary" href=""><i class="fa-solid fa-calendar-days"></i></a>
           </li>
           <li>
-            <a href="">Home</a>
+            <a id="home" href="">Home</a>
           </li>
           <li>
-            <a href="">About</a>
+            <a id="about-menu" href="#about">About</a>
           </li>
           <li>
-            <a href="">Our Services</a>
+            <a id="services" href="#our-services">Our Services</a>
           </li>
           <li>
-            <a href="">Contacts</a>
+            <a id="contacts" href="#">Contacts</a>
           </li>
         </ul>
       </nav>
@@ -94,7 +96,7 @@
         </article>
       </div>
     </section>
-    <section class="container-why-choose-us">
+    <section id="about" class="container-why-choose-us">
       <div class="content-img"></div>
       <div class="content-why-choose-us">
         <div>
@@ -162,7 +164,7 @@
         </article>
       </div>
     </section>
-    <section class="container-our-services">
+    <section id="our-services" class="container-our-services">
       <div class="title-our-services">
         <h2>Our Services</h2>
         <p>"Behing every good Business is a great Accountant.."</p>
@@ -259,5 +261,7 @@
       </div>
     </div>
   </footer>
+
+  <script src="./js/cardCalendary.js"></script>
 </body>
 </html>
