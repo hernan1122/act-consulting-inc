@@ -32,7 +32,7 @@ window.onscroll = function () {
     aboutMenu.classList.add('ingress-menu-a');
     servicesMenu.classList.add('ingress-menu-a');
     contactsMenu.classList.add('ingress-menu-a');
-  } else if (scroll < 179) {
+  } else if (scroll < 180) {
     menu.classList.remove('ingress-menu');
     calendaryMenu.classList.remove('ingress-menu-a');
     homeMenu.classList.remove('ingress-menu-a');
