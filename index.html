@@ -56,12 +56,12 @@
   </header>
   <main>
     <section class="container-what-we-do">
-      <div class="title-what-we-do">
+      <div class="title-what-we-do" data-aos="fade-up">
         <h2>What we do</h2>
         <p>With plenty of experiences, let us help you with your Tax Return.</p>
       </div>
       <div class="container-cars-what-we-do">
-        <article class="cars-what-we-do">
+        <article class="cars-what-we-do" data-aos="fade-up">
           <ul>
             <li>1040 Individual Returns.</li>
             <li>Multi-State Returns.</li>
@@ -70,7 +70,7 @@
             <li>Rental Properties Schedule E Returns.</li>
           </ul>
         </article>
-        <article class="cars-what-we-do">
+        <article class="cars-what-we-do" data-aos="fade-up">
           <ul>
             <li>K-1 (Partnership / S-Corp) Returns.</li>
             <li>Foreign Resident and Non Resident Returns.</li>
@@ -78,7 +78,7 @@
             <li>MBA and Education Tuition Deductions.</li>
           </ul>
         </article>
-        <article class="cars-what-we-do">
+        <article class="cars-what-we-do" data-aos="fade-up">
           <ul>
             <li>C Corporations(1120)</li>
             <li>S Corporations (11205)</li>
@@ -86,7 +86,7 @@
             <li>LLC, LLP, LP</li>
           </ul>
         </article>
-        <article class="cars-what-we-do">
+        <article class="cars-what-we-do" data-aos="fade-up">
           <ul>
             <li>Schedule C Sole Propietors.</li>
             <li>Multi State Business Returns.</li>
@@ -129,7 +129,7 @@
         </article>
       </div>
     </section>
-    <section class="container-who-we-are">
+    <section class="container-who-we-are" data-aos="fade-up">
       <div class="content-who-we-are-1">
         <h2>Who we are</h2>
         <p>Whe are here to serve you...</p>
@@ -165,11 +165,11 @@
       </div>
     </section>
     <section id="our-services" class="container-our-services">
-      <div class="title-our-services">
+      <div class="title-our-services" data-aos="fade-up">
         <h2>Our Services</h2>
         <p>"Behing every good Business is a great Accountant.."</p>
       </div>
-      <div class="content-card-our-services">
+      <div class="content-card-our-services" data-aos="fade-up">
         <article>
           <div>
             <h4>Accounting & Bookkeeping.</h4>
@@ -233,9 +233,9 @@
           <div class="content-sections">
             <h4>Sections</h4>
             <a href="">Home</a>
-            <a href="">About</a>
-            <a href="">Our Services</a>
-            <a href="">Contact</a>
+            <a href="#about">About</a>
+            <a href="#our-services">Our Services</a>
+            <a href="./contact.html">Contact</a>
           </div>
           <div class="content-contact">
             <h4>Contact</h4>
@@ -263,5 +263,12 @@
   </footer>
 
   <script src="./js/cardCalendary.js"></script>
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script>
+    AOS.init({
+      duration: 400,
+      once: true,
+    });
+  </script>
 </body>
 </html>

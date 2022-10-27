@@ -35,7 +35,7 @@
   </header>
   <main>
     <section class="container-table">
-      <div class="content-table">
+      <div class="content-table" data-aos="fade-up">
         <h2>Tax Deadline Calendar for
         <br>
         2021 Fiscal Year</h2>
@@ -268,10 +268,10 @@
         <div class="content-sections-contact">
           <div class="content-sections">
             <h4>Sections</h4>
-            <a href="">Home</a>
-            <a href="">About</a>
-            <a href="">Our Services</a>
-            <a href="">Contact</a>
+            <a href="./index.html">Home</a>
+            <a href="./index.html#about">About</a>
+            <a href="./index.html#our-services">Our Services</a>
+            <a href="./contact.html">Contact</a>
           </div>
           <div class="content-contact">
             <h4>Contact</h4>
@@ -297,5 +297,13 @@
       </div>
     </div>
   </footer>
+
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script>
+    AOS.init({
+      duration: 400,
+      once: true,
+    });
+  </script>
 </body>
 </html>

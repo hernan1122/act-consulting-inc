@@ -41,11 +41,11 @@
   </header>
   <main>
     <section class="container-form">
-      <div class="title-form">
+      <div class="title-form" data-aos="fade-up">
         <h2>Get in touch</h2>
       </div>
       <div class="content-form">
-        <form action="">
+        <form action="" data-aos="fade-up">
           <div class="container-name-email-form">
             <div class="name-form">
               <h3>Your Name *</h3>
@@ -65,18 +65,18 @@
       </div>
     </section>
     <section class="container-info">
-      <article>
+      <article data-aos="fade-up">
         <h3>Email Us</h3>
         <h4>General Information:</h4>
         <p>info@actconsultinginc.com</p>
       </article>
-      <article>
+      <article data-aos="fade-up">
         <h3>Visit Us</h3>
         <h4>Sales Representatives Office</h4>
         <p>5013 Chester Avenue,</p>
         <p>Philadelphia, PA 19143</p>
       </article>
-      <article>
+      <article data-aos="fade-up">
         <h3>Call us</h3>
         <p>(+773) 951-2982</p>
         <p>(+773) 945-6601</p>
@@ -93,10 +93,10 @@
         <div class="content-sections-contact">
           <div class="content-sections">
             <h4>Sections</h4>
-            <a href="">Home</a>
-            <a href="">About</a>
-            <a href="">Our Services</a>
-            <a href="">Contact</a>
+            <a href="./index.html">Home</a>
+            <a href="./index.html#about">About</a>
+            <a href="./index.html#our-services">Our Services</a>
+            <a href="./contact.html">Contact</a>
           </div>
           <div class="content-contact">
             <h4>Contact</h4>
@@ -124,5 +124,12 @@
   </footer>
 
   <script src="./js/cardCalendary.js"></script>
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script>
+    AOS.init({
+      duration: 400,
+      once: true,
+    });
+  </script>
 </body>
 </html>
