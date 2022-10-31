@@ -1,0 +1,339 @@
+@media (max-width: 1000px) {
+   main .container-why-choose-us {
+    padding: 100px 0 100px 20px;
+    gap: 0px;
+   }
+  main .container-why-choose-us .content-why-choose-us {
+    padding: 0 20px 0 100px;
+    max-width: 500px;
+  }
+  main .container-who-we-are {
+    padding: 100px 20px;
+    gap: 30px;
+  }
+  main .container-personal-attention .content-article {
+    padding-right: 90px;
+  }
+  main .container-our-services .title-our-services {
+    left: 220px;
+  }
+  main .container-our-services .content-card-our-services {
+    width: 800px;
+  }
+  main .container-contact .content-contact,
+  footer .container-footer .footer-content,
+  footer .container-privacy .content-privacy {
+    width: 90%;
+  }
+}
+
+@media (max-width: 990px) {
+  header .container-title h1 {
+    width: 70%;
+  }
+  header .wavy-background {
+    height: 48px;
+  }
+  main .container-what-we-do .title-what-we-do {
+    max-width: 68%;
+  }
+  main .container-what-we-do .container-cars-what-we-do {
+    padding: 70px 20px 0 20px;
+  }
+  main .container-why-choose-us {
+    width: auto;
+    padding: 100px 0;
+    flex-direction: column;
+  }
+  main .container-why-choose-us .content-img {
+    width: 700px;
+    height: 700px;
+  }
+  main .container-why-choose-us .content-why-choose-us {
+    margin: 40px 0 0;
+    padding: 0 20px 0 0;
+    max-width: 447px;
+  }
+  main .container-who-we-are {
+    margin-left: 140px;
+    flex-direction: column;
+  }
+  main .container-personal-attention {
+    flex-direction: column;
+  }
+  main .container-personal-attention .content-img {
+    width: 1000px;
+    height: 550px;
+    left: 4px;
+  }
+  main .container-personal-attention .content-article {
+    width: 700px;
+    margin: 70px auto;
+    padding-right: 0;
+    align-items: inherit;
+  }
+  footer .container-footer .content-sections-contact {
+    gap: 100px;
+  }
+}
+
+@media (max-width: 768px) {
+  .card-calendary .container-calendary {
+    width: 300px;
+    height: auto;
+    padding: 10px 0;
+    flex-direction: column;
+    align-items: center;
+  }
+  .card-calendary .container-calendary figure::before {
+    content: none;
+  }
+  .card-calendary .container-calendary figure img {
+    width: 220px;
+  }
+  .card-calendary .container-calendary .content-text-calendary h3 {
+    text-align: center;
+  }
+  .card-calendary .container-calendary .content-text-calendary {
+    align-items: center;
+  }
+  h2 {
+    font-size: 3.2rem;
+  }
+  main .container-what-we-do {
+    padding: 100px 0 50px 0;
+  }
+  main .container-what-we-do .container-cars-what-we-do {
+    margin: 0 90px;
+    display: block;
+  }
+  main .container-what-we-do .container-cars-what-we-do .cars-what-we-do {
+    width: auto;
+    margin-bottom: 50px;
+  }
+  main .container-why-choose-us .content-img {
+    width: 500px;
+    height: 500px;
+  }
+  main .container-why-choose-us .content-why-choose-us {
+    margin-left: 100px;
+  }
+  main .container-who-we-are {
+    margin-left: 15px;
+  }
+  main .container-personal-attention .content-img {
+    width: 780px;
+    height: 400px;
+  }
+  main .container-personal-attention .content-article {
+    width: 500px;
+  }
+  main .container-our-services .title-our-services {
+    left: 130px;
+  }
+  main .container-our-services .content-card-our-services article {
+    width: 65%;
+  }
+  main .container-contact .content-contact {
+    width: 65%;
+    text-align: center;
+  }
+  main .container-contact .content-contact h2 {
+    font-size: 4rem;
+  }
+  main .container-contact .content-contact button {
+    padding: 10px 35px;
+  }
+  footer .container-footer .footer-content {
+    width: 65%;
+    display: block;
+  }
+  footer .container-footer .content-sections-contact {
+    gap: 150px;
+  }
+  footer .container-privacy {
+    width: 73%;
+    margin: 0 auto;
+  }
+}
+
+@media (max-width: 576px) {
+  h2 {
+    font-size: 2.8rem;
+  }
+  h3 {
+    font-size: 2.1rem;
+  }
+  p {
+    font-size: 1.5rem;
+  }
+  li {
+    font-size: 1.4rem;
+  }
+  header,
+  .transparents {
+    height: 70vh;
+  }
+  header .wavy-background {
+    height: 30px;
+    bottom: 187px;
+  }
+  header nav ul li a {
+    margin: 0 6px;
+    font-size: 1.4rem;
+  }
+  header .container-title {
+    padding: 166px 0;
+  }
+  header .container-title h1 {
+    font-size: 5rem;
+    font-weight: 600;
+  }
+  main .container-what-we-do .title-what-we-do {
+    width: 80%;
+    margin: 0 0 0 50px;
+  }
+  main .container-what-we-do .container-cars-what-we-do {
+    margin: 0 40px;
+    padding: 0;
+    list-style: none;
+  }
+  main .container-why-choose-us .content-why-choose-us {
+    margin-left: 126px;
+  }
+  main .container-who-we-are {
+    margin-left: 20px;
+  }
+  main .container-personal-attention .content-img {
+    width: 556px;
+  }
+  main .container-our-services .title-our-services {
+    left: 40px;
+  }
+  main .container-our-services .content-card-our-services article {
+    width: 60%;
+  }
+  main .container-contact {
+    padding: 40px 0 80px 0;
+  }
+  main .container-contact .content-contact {
+    width: 85%;
+  }
+  footer .container-footer .footer-content {
+    width: 85%;
+  }
+  footer .container-footer .content-sections-contact {
+    gap: 195px;
+  }
+  footer .container-footer .content-text p,
+  footer .container-footer .content-sections-contact .content-sections a,
+  footer .container-footer .content-sections-contact .content-contact h6,
+  footer .container-privacy .content-privacy a {
+    font-size: 1.2rem;
+  }
+  footer .container-footer .content-text p {
+    width: 140%;
+  }
+  footer .container-footer .content-sections-contact h4 {
+    font-size: 1.4rem;
+  }
+  footer .container-footer .content-sections-contact .content-contact .container-social-networks a {
+    font-size: 1.4rem;
+  }
+  footer .container-privacy {
+    width: 95%;
+  }
+}
+
+/* @media (max-width: 550px) {
+  main .container-why-choose-us .content-img {
+    width: 400px;
+    height: 400px;
+  }
+  main .container-who-we-are p,
+  main .container-who-we-are ul li,
+  main .container-personal-attention .content-article p  {
+    width: 85%;
+  }
+  main .container-personal-attention .content-article {
+    margin-left: 20px;
+  }
+  main .container-our-services .content-card-our-services article {
+    width: 51%;
+  }
+  footer .container-footer .content-text p {
+    width: 100%;
+  }
+} */
+
+/* @media (max-width: 550px) {
+  header .container-title h1 {
+    width: 80%;
+  }
+  header .container-title p {
+    font-size: 1.5rem;
+  }
+  main .container-why-choose-us .content-img {
+    width: 350px;
+    height: 350px;
+  }
+  main .container-who-we-are {
+    margin: 0 20px;
+  }
+  main .container-our-services .content-card-our-services article {
+    width: 42%;
+  }
+  footer .container-footer .content-text {
+    width: 340px;
+  }
+  footer .container-footer .content-sections-contact {
+    gap: 125px;
+  }
+}
+*/
+
+@media (max-width: 550px) {
+  p {
+    width: 58%;
+  }
+  header .container-title h1 {
+    width: 90%;
+    font-size: 4rem;
+  }
+  header .container-title p {
+    width: auto;
+  }
+  main .container-what-we-do .title-what-we-do p {
+    width: 100%;
+  }
+  main .container-why-choose-us .content-img {
+    width: 300px;
+    height: 300px;
+  }
+  main .container-who-we-are ul li {
+    width: 58%;
+  }
+  main .container-personal-attention .content-img {
+    width: 350px;
+    height: 350px;
+  }
+  main .container-personal-attention .content-article {
+    margin-left: 20px;
+  }
+  main .container-our-services .content-card-our-services article {
+    width: 38%;
+  }
+  main .container-contact .content-contact p,
+  main .container-contact .content-contact button {
+    width: 100%;
+  }
+  footer .container-footer .footer-content .content-text p {
+    width: 80%;
+  }
+  footer .container-footer .content-sections-contact {
+    gap: 110px;
+  }
+  footer .container-privacy .content-privacy div a {
+    display: block;
+  }
+}

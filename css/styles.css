@@ -139,7 +139,7 @@ header {
 header .wavy-background {
   content: "";
   width: 100%;
-  height: 100px;
+  height: 70px;
   position: absolute;
   bottom: -14px;
   background-color: #fff;
@@ -238,7 +238,7 @@ header .container-title p {
   margin-top: 20px;
   font-size: 2rem;
   font-weight: 400;
-  color: #fff;
+  color: rgba(255, 255, 255, 0.7);
 }
 /*main*/
 /*what we do*/
@@ -255,7 +255,6 @@ main .container-what-we-do .title-what-we-do {
 main .container-what-we-do .container-cars-what-we-do {
   padding-top: 70px;
   display: flex;
-  flex-wrap: wrap;
   justify-content: center;
 }
 main .container-what-we-do .container-cars-what-we-do .cars-what-we-do  {
@@ -277,8 +276,8 @@ main .container-why-choose-us {
   padding: 100px 0;
   background-color: #f8f8f8;
   display: flex;
-  flex-wrap: wrap;
   justify-content: center;
+  align-items: center;
   gap: 100px;
 }
 main .container-why-choose-us figure {
@@ -308,7 +307,6 @@ main .container-who-we-are {
   padding: 100px 0;
   background-color: #fff;
   display: flex;
-  flex-wrap: wrap;
   justify-content: center;
   gap: 100px;
 }
